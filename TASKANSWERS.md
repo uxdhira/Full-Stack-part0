@@ -48,6 +48,7 @@
     Note right of browser: Browser renders the notes using the DOM API
 
 In simple, flow is like this::
+
 User enters note → Clicks Save → POST note → Server saves note → 302 Redirect → GET page → Load CSS → Load JavaScript → GET notes JSON → Render notes
 
 0.4: Save note → reload
@@ -89,6 +90,7 @@ User enters note → Clicks Save → POST note → Server saves note → 302 Red
     Note right of browser: JavaScript renders the notes using the DOM API
     
 In simple, flow is like this::
+
 User opens SPA → GET SPA page → Load CSS → Load SPA JavaScript → JavaScript requests notes → Render notes
 
 
@@ -126,6 +128,7 @@ User opens SPA → GET SPA page → Load CSS → Load SPA JavaScript → JavaScr
     Note right of browser: Browser remains on the same page<br/>No redirect or page reload occurs
 
  In simple, flow is like this::
+ 
  User action → JavaScript handles it → local UI update → POST JSON → server stores note → 201 Created → same page
 
 
